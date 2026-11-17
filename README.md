@@ -1,4 +1,4 @@
-# lochless-io
+# Lochless
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-lochless-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://lochless.io/
+Lochless provides a Retrieval-Augmented Generation (RAG) platform that ingests documents, indexes them, and enables LLMs to answer queries with citations from the original texts. Users can upload various data types such as tickets, transcripts, and logs, and then run three simple API calls – ingest, context, and ask – to retrieve relevant information and get concise answers. The service offers a free $5 credit, pay‑per‑use pricing, and no need for a vector database, making it accessible for teams to quickly add AI‑powered search to their workflows without managing infrastructure.
+
+**Areas:** Company · RAG · AI · Search · Documentation
+
+## Lochless on APIs.io
+
+Everything profiled for Lochless is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lochless-io/](https://apis.io/providers/lochless-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Lochless Ask API](https://apis.io/apis/lochless-io/lochless-io-ask-api/) — The Ask API from Lochless — 1 operation(s) for ask.
+- [Lochless Context API](https://apis.io/apis/lochless-io/lochless-io-context-api/) — The Context API from Lochless — 1 operation(s) for context.
+- [Lochless Dashboards API](https://apis.io/apis/lochless-io/lochless-io-dashboards-api/) — The Dashboards API from Lochless — 4 operation(s) for dashboards.
+- [Lochless Docs API](https://apis.io/apis/lochless-io/lochless-io-docs-api/) — The Docs API from Lochless — 1 operation(s) for docs.
+- [Lochless Ingest API](https://apis.io/apis/lochless-io/lochless-io-ingest-api/) — The Ingest API from Lochless — 1 operation(s) for ingest.
+- [Lochless Recorder API](https://apis.io/apis/lochless-io/lochless-io-recorder-api/) — The Recorder API from Lochless — 2 operation(s) for recorder.
+- [Lochless Widgets API](https://apis.io/apis/lochless-io/lochless-io-widgets-api/) — The Widgets API from Lochless — 1 operation(s) for widgets.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Lochless Agentic Access](https://apis.io/agentic-access/lochless-io/lochless-io-agentic-access/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [Dashboard](https://apis.io/schemas/lochless-io/lochless-io-dashboard/)
+- [IngestDocument](https://apis.io/schemas/lochless-io/lochless-io-ingest-document/)
+- [Widget](https://apis.io/schemas/lochless-io/lochless-io-widget/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Lochless Io Context](https://apis.io/jsonld/lochless-io/lochless-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Lochless API Rules](https://apis.io/rules/lochless-io/lochless-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lochless Authentication](https://apis.io/security/lochless-io/lochless-io-authentication/)
+- [Lochless Domain Security](https://apis.io/security/lochless-io/lochless-io-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lochless.io/)
+- [Documentation](https://lochless.io/docs.html)
+- [Getting started](https://lochless.io/docs.html)
+- [API reference](https://api.lochless.io/v1/)
+- [Terms of service](https://lochless.io/terms.html)
+- [Privacy policy](https://lochless.io/privacy.html)
+
+## API Evangelist rating
+
+**Kin Score 44.2** — developing · rubric 0.28.0 · scored 2026-11-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 57.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 27.7 |
+
+**Agent readiness 39.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lochless-io/](https://apis.io/providers/lochless-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lochless: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lochless-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
